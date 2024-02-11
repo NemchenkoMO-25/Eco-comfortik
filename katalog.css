@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=MuseoModerno:wght@600&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.header__link{
+    font-size: 25px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+
+
+
+#one_kard {
+    -webkit-box-shadow: 0px 3px 15px 4px rgba(182,241,172,0.41); 
+    box-shadow: 0px 3px 15px 4px rgba(182,241,172,0.41);
+    background: #FFFFFF;
+    }
+    body#tinymce {
+    background: #FFFFFF
+    }

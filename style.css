@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=MuseoModerno:wght@600&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.header__link{
+    font-size: 25px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+.special_offer{
+    height: 642.68px;
+    background-image: url(img/предложение_до_30_февраля.png);
+    background-repeat: no-repeat;
+}
+.img_offer{
+    padding-left: 275px;
+    padding-top: 130px;
+    /* margin-bottom: 100px;*/
+}
+.heading{
+    font-size: 80px;
+    font-family: roboto;
+}
+
+.february{
+    font-size: 24px;
+    font-family: expletus sans;
+}
+
+.button_catalog{
+    background-color:black;
+    color: white;
+    width: 268px;
+    height: 55px;
+    text-align: center;
+
+}
+
+.expert{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 26px;
+
+}
+
+.expert_img{
+    width: 615px;
+    height: 305px;
+}
+
+.expert_eco-comfort{
+    margin-left: 26px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
